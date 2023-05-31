@@ -3,8 +3,8 @@ import React from "react";
 function About() {
   return (
     <div>
-      About Me
-      <h1>
+      <h1>About Me</h1>
+      <p>
         Hello, and welcome to my portfolio website! My name is Mendel Rosenblum,
         and I am thrilled to share my journey with you. At the age of 17, I
         embarked on an accelerated EMT course and graduated as the
@@ -38,7 +38,7 @@ function About() {
         you for visiting, and please feel free to reach out if you have any
         questions or opportunities you'd like to discuss. Let's connect and make
         a difference together.
-      </h1>
+      </p>
     </div>
   );
 }

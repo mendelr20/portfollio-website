@@ -21,16 +21,6 @@ function ContactForm() {
         field="email"
         errors={state.errors}
       />
-      <input
-        id="number"
-        type="number" 
-        name="number"
-      />
-      <ValidationError 
-        prefix="Number" 
-        field="number"
-        errors={state.errors}
-      />
       <textarea
         id="message"
         name="message"

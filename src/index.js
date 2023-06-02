@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRoute, Router } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import App from "./components/App";
 import ReactGA from 'react-ga';
 import { createBrowserHistory } from 'history';
@@ -22,8 +22,8 @@ ReactGA.set({
   // // that you would like to track with google analytics
 })
 ReactDOM.render(
-  <Router>
+  <BrowserRouter history={history}>
       <App />
-  </Router>,
+  </BrowserRouter>,
   document.getElementById("root")
 );

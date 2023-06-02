@@ -1,29 +1,28 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
-import App from "./components/App";
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import ReactGA from 'react-ga';
-import { createBrowserHistory } from 'history';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import App from './components/App';
+
+const RouteChangeTracker = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.set({ page: location.pathname });
+    ReactGA.pageview(location.pathname);
+  }, [location]);
+
+  return <div></div>;
+};
 
 const trackingId = "G-KHFLY2E0DW"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 
-const history = createBrowserHistory();
-
-// Initialize google analytics page view tracking
-history.listen(location => {
-  ReactGA.set({ page: location.pathname }); // Update the user's current page
-  ReactGA.pageview(location.pathname); // Record a pageview for the given page
-});
-
-ReactGA.set({
-  // userId: auth.currentUserId(),
-  // // any data that is relevant to the user session
-  // // that you would like to track with google analytics
-})
 ReactDOM.render(
-  <BrowserRouter history={history}>
-      <App />
+  <BrowserRouter>
+    <RouteChangeTracker />
+    <App />
   </BrowserRouter>,
   document.getElementById("root")
 );

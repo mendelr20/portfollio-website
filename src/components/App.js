@@ -26,4 +26,4 @@ function App() {
     </div>
   );
 }
-export default ReactGA.withTracker(App);
+export default App

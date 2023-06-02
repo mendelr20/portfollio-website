@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Routes, Route } from "react-router-dom";
 import NavBar from "./NavBar";
 import HomePage from "./HomePage";
@@ -13,6 +13,10 @@ ReactGA.initialize(trackingId);
 
 
 function App() {
+  useEffect(() => {
+    // Track pageview when the component mounts
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
   return (
     <div>
       <NavBar />

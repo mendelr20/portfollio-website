@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Header from "./Header"
+
 function App() {
   return (
     <div>

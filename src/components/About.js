@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div>
+    <div className="d-flex justify-content-center align-items-start bg-black text-white py-3">
       <h1>About Me</h1>
       <p>
         Hello, and welcome to my portfolio website! My name is Mendel Rosenblum,

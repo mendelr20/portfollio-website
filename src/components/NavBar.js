@@ -7,23 +7,23 @@ function NavBar() {
   const location = useLocation();
 
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="black">
       <Container className="d-flex justify-content-center">
         <Nav>
           <LinkContainer to="/" exact>
-            <Nav.Link active={location.pathname === "/"} className="fs-5">Home</Nav.Link>
+            <Nav.Link  className="d-flex justify-content-center align-items-start bg-black text-white py-3" active={location.pathname === "/"}>Home</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/about">
-            <Nav.Link active={location.pathname === "/about"} className="fs-5">About</Nav.Link>
+            <Nav.Link className="d-flex justify-content-center align-items-start bg-black text-white py-3" active={location.pathname === "/about"}>About</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/skills">
-            <Nav.Link active={location.pathname === "/skills"} className="fs-5">Skills</Nav.Link>
+            <Nav.Link className="d-flex justify-content-center align-items-start bg-black text-white py-3" active={location.pathname === "/skills"}>Skills</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/projects">
-            <Nav.Link active={location.pathname === "/projects"} className="fs-5">Projects</Nav.Link>
+            <Nav.Link className="d-flex justify-content-center align-items-start bg-black text-white py-3" active={location.pathname === "/projects"}>Projects</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/contact">
-            <Nav.Link active={location.pathname === "/contact"} className="fs-5">Contact</Nav.Link>
+            <Nav.Link className="d-flex justify-content-center align-items-start bg-black text-white py-3" active={location.pathname === "/contact"}>Contact</Nav.Link>
           </LinkContainer>
         </Nav>
       </Container>

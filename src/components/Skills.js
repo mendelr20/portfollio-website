@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skills() {
   return (
-    <div className="d-flex justify-content-center align-items-start bg-black text-white py-3">Skills</div>
+    <div className="bg-black text-white text-center py-5">Skills</div>
   )
 }
 

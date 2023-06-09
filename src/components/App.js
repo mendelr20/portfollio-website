@@ -7,20 +7,25 @@ import Contact from "./Contact";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Header from "./Header"
+import Footer from "./Footer";
 
 function App() {
   return (
-    <div>
+    <div className="app-container bg-black d-flex flex-column min-vh-100">
       <Header />
       <NavBar />
-      <Routes className="routes">
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/" element={<HomePage />} />
-      </Routes>
+      <main className="flex-grow-1">
+        <Routes className="routes">
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/" element={<HomePage />} />
+        </Routes>
+      </main>
+      <Footer />
     </div>
   );
 }
-export default App
+
+export default App;

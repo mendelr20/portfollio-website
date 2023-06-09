@@ -30,7 +30,7 @@ function Footer() {
           </Col>
         </Row>
       </div>
-      <p className="mt-auto">
+      <p className="mt-auto mb-0">
         &copy; 2023 Mendel Rosenblum. All rights reserved. Trademarks and logos are the property of their respective owners.
       </p>
     </div>

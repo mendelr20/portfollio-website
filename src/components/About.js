@@ -11,7 +11,7 @@ function About() {
           <Col xs={12} md={6} lg={4} className="text-center">
             <img
               src={AboutImage}
-              alt="Your Name"
+              alt="Mendel Rosenblum"
               className="img-fluid rounded-circle mb-4"
               style={{ width: "200px" }}
             />

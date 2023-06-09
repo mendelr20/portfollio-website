@@ -1,11 +1,22 @@
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import AboutImage from "../images/About.jpg"; 
 
 function About() {
   return (
-    <div className="bg-black text-white py-5">
+    <div className="bg-black text-white text-center py-5">
       <Container>
         <h1 className="text-center mb-4">About Me</h1>
+        <Row className="justify-content-center align-items-center">
+          <Col xs={12} md={6} lg={4} className="text-center">
+            <img
+              src={AboutImage}
+              alt="Your Name"
+              className="img-fluid rounded-circle mb-4"
+              style={{ width: "200px" }}
+            />
+          </Col>
+        </Row>
         <p>
           Hello, and welcome to my portfolio website! My name is Mendel Rosenblum, and I am thrilled to share my journey with you.
         </p>

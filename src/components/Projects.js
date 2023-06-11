@@ -4,24 +4,14 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 function Projects() {
   const projects = [
     {
-      title: 'Project 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      title: 'Trauma Talks',
+      description: 'Trauma Talks is a medical blog primarly focused on emergency medcine. Users can create a account, login, create a post and assign it to a category, and update, edit or delete posts that belongs to them, as well as create, update and edit and delete reviews on any post (React & Rails)',
       image: 'https://via.placeholder.com/300',
-      gifUrl: null, // No GIF available
-      githubLink: 'https://github.com/example/project1',
-      liveSiteLink: 'https://www.example.com/project1',
-      videoUrl: 'https://www.youtube.com/embed/example1',
+      gifUrl: null, 
+      githubLink: 'https://github.com/mendelr20/phase-5-project',
+      liveSiteLink: 'https://traumatalks.onrender.com/',
+      videoUrl: 'https://www.youtube.com/watch?v=fyD7_2qYQuw&list=PL0GgGfAMbvADB7BgCXnYgJKgWiT5i5X2E&ind',
     },
-    {
-      title: 'Project 2',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      image: 'https://via.placeholder.com/300',
-      gifUrl: 'https://example.com/project2.gif',
-      githubLink: 'https://github.com/example/project2',
-      liveSiteLink: null, // No live site available
-      videoUrl: 'https://www.youtube.com/embed/example2',
-    },
-    // Add more projects...
   ];
 
   return (

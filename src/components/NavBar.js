@@ -62,6 +62,7 @@ function NavBar() {
           border-radius: 8px; /* Add border-radius for a more modern look */
           border: none; /* Remove the default border */
           outline: none; /* Remove the default outline */
+          text-decoration: none; /* Remove underline */
         }
         
         .nav-link-custom:hover {
@@ -74,7 +75,6 @@ function NavBar() {
         .nav-link-custom.active {
           color: white; /* Update to your preferred active text color */
           box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow for the active link */
-          border-bottom: 2px solid yellow; /* Add a visual indicator for the active link */
         }
         
         .navbar-dark .navbar-brand {

@@ -61,7 +61,7 @@ function Skills() {
         <h2 className="text-center mb-4">Skills</h2>
         <Row className="justify-content-center">
           {skills.map((skill, index) => (
-            <Col key={index} xs={6} sm={4} md={3} lg={2} className="mb-3">
+            <Col key={index} xs={6} sm={4} md={3} lg={2} className="mb-3 d-flex align-items-center justify-content-center">
               <div className="skill-item">
                 {skill.icon && React.createElement(skill.icon, { size: "3x" })}
                 <span className="skill-name">{skill.name}</span>
@@ -94,6 +94,7 @@ function Skills() {
 
         .skill-name {
           margin-top: 8px;
+          text-align: center;
         }
         `}
       </style>

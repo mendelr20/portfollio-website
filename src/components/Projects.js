@@ -1,17 +1,49 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import TraumaTalks from "../images/TraumaTalks.png";
 
 function Projects() {
   const projects = [
     {
       title: 'Trauma Talks',
-      description: 'Trauma Talks is a medical blog primarly focused on emergency medcine. Users can create a account, login, create a post and assign it to a category, and update, edit or delete posts that belongs to them, as well as create, update and edit and delete reviews on any post (React & Rails)',
-      image: 'https://via.placeholder.com/300',
-      gifUrl: null, 
+      description: 'Trauma Talks is a medical blog primarily focused on emergency medicine. Users can create an account, login, create a post and assign it to a category, and update, edit, or delete posts that belong to them, as well as create, update, edit, and delete reviews on any post (React & Rails)',
+      image: TraumaTalks,
       githubLink: 'https://github.com/mendelr20/phase-5-project',
       liveSiteLink: 'https://traumatalks.onrender.com/',
-      videoUrl: 'https://www.youtube.com/watch?v=fyD7_2qYQuw&list=PL0GgGfAMbvADB7BgCXnYgJKgWiT5i5X2E&ind',
+      videoUrl: 'https://www.youtube.com/embed/fyD7_2qYQuw',
     },
+    {
+      title: 'Recipe Ranger',
+      description: 'Recipe Ranger allows users to browse and filter through a comprehensive list of recipes, create and delete their own recipe reviews, and update their reviews. The application allows users to create an account, log in, and search for recipes based on meal course, sort by name (A-Z or Z-A), and sort by time to complete (up or down). Users can also search for recipes by title and view recipe details, including instructions, notes, meal course, and cooking time. (React & Rails)',
+      image: TraumaTalks,
+      githubLink: 'https://github.com/mendelr20/phase-4-project',
+      liveSiteLink: null,
+      videoUrl: 'https://www.youtube.com/embed/_fF8WRY5fok',
+    },
+    {
+      title: 'Entertainment Tracker',
+      description: 'Entertainment Tracker where you can create a new book, which includes fields for the title, series name (if applicable), an author selection from a list, or the option to add a new author, notes, and a checkbox that indicates if the book has been read. (React & Ruby)',
+      image: null,
+      githubLink: 'https://github.com/mendelr20/phase-3-project-frontend',
+      liveSiteLink: null,
+      videoUrl: 'https://www.youtube.com/embed/-cEULKPZzuU',
+    },
+    {
+      title: 'Nurses Salary',
+      description: 'Online Database of comonly found nurse and their salarys with the ability to add likes to each nurse. (React & JSONServer)',
+      image: null,
+      githubLink: 'https://github.com/mendelr20/phase-2-project',
+      liveSiteLink: null,
+      videoUrl: 'https://www.youtube.com/embed/eGHfewB1rvs',
+    },
+    {
+      title: 'EMS Drugs / Medication Application ',
+      description: 'Single-page application that allows a user to search and see information about Medications I learned about in Paramedic school and is ocmmonaly used as a Paramedic (Vanilla Javascript & JSONServer)',
+      image: null,
+      githubLink: 'https://github.com/mendelr20/phase-1-project',
+      liveSiteLink: null,
+      videoUrl: 'https://www.youtube.com/embed/_D_eRV-KZhQ',
+    }
   ];
 
   return (
@@ -23,11 +55,7 @@ function Projects() {
             <Col key={index} xs={12} md={6} lg={4} className="mb-4 d-flex align-items-stretch">
               <Card className="h-100 bg-dark text-white d-flex flex-column justify-content-between">
                 <div className="text-center pt-4 px-3">
-                  {project.gifUrl ? (
-                    <img src={project.gifUrl} alt={project.title} className="img-fluid" />
-                  ) : (
-                    <Card.Img variant="top" src={project.image} alt={project.title} className="mb-4" />
-                  )}
+                  <Card.Img variant="top" src={project.image} alt={project.title} className="mb-4" />
                   <Card.Title className="mt-3 mb-2">{project.title}</Card.Title>
                   <Card.Text className="mb-4">{project.description}</Card.Text>
                 </div>

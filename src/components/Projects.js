@@ -1,6 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import TraumaTalks from "../images/TraumaTalks.png";
+import RecipeRanger from "../images/RecipeRanger.png";
+import EntertainmentTracker from "../images/EntertainmentTracker.png";
+import NursesSalary from "../images/NursesSalary.png";
+import EMS from "../images/EMS.png";
 
 function Projects() {
   const projects = [
@@ -15,7 +19,7 @@ function Projects() {
     {
       title: 'Recipe Ranger',
       description: 'Recipe Ranger allows users to browse and filter through a comprehensive list of recipes, create and delete their own recipe reviews, and update their reviews. The application allows users to create an account, log in, and search for recipes based on meal course, sort by name (A-Z or Z-A), and sort by time to complete (up or down). Users can also search for recipes by title and view recipe details, including instructions, notes, meal course, and cooking time. (React & Rails)',
-      image: TraumaTalks,
+      image: RecipeRanger,
       githubLink: 'https://github.com/mendelr20/phase-4-project',
       liveSiteLink: null,
       videoUrl: 'https://www.youtube.com/embed/_fF8WRY5fok',
@@ -23,7 +27,7 @@ function Projects() {
     {
       title: 'Entertainment Tracker',
       description: 'Entertainment Tracker where you can create a new book, which includes fields for the title, series name (if applicable), an author selection from a list, or the option to add a new author, notes, and a checkbox that indicates if the book has been read. (React & Ruby)',
-      image: null,
+      image: EntertainmentTracker,
       githubLink: 'https://github.com/mendelr20/phase-3-project-frontend',
       liveSiteLink: null,
       videoUrl: 'https://www.youtube.com/embed/-cEULKPZzuU',
@@ -31,7 +35,7 @@ function Projects() {
     {
       title: 'Nurses Salary',
       description: 'Online Database of comonly found nurse and their salarys with the ability to add likes to each nurse. (React & JSONServer)',
-      image: null,
+      image: NursesSalary,
       githubLink: 'https://github.com/mendelr20/phase-2-project',
       liveSiteLink: null,
       videoUrl: 'https://www.youtube.com/embed/eGHfewB1rvs',
@@ -39,7 +43,7 @@ function Projects() {
     {
       title: 'EMS Drugs / Medication Application ',
       description: 'Single-page application that allows a user to search and see information about Medications I learned about in Paramedic school and is ocmmonaly used as a Paramedic (Vanilla Javascript & JSONServer)',
-      image: null,
+      image: EMS,
       githubLink: 'https://github.com/mendelr20/phase-1-project',
       liveSiteLink: null,
       videoUrl: 'https://www.youtube.com/embed/_D_eRV-KZhQ',

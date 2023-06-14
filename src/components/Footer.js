@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faTwitter, faInstagram,faMedium } from '@fortawesome/free-brands-svg-icons';
 import { Row, Col } from 'react-bootstrap';
 
 function Footer() {
@@ -23,9 +23,14 @@ function Footer() {
               <FontAwesomeIcon icon={faTwitter} size="2x" style={{ color: "white" }} />
             </a>
           </Col>
-          <Col xs="auto">
+          <Col xs="auto" className="mr-4">
             <a href="https://instagram.com/mendel_rosenblum/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} size="2x" style={{ color: "white" }} />
+            </a>
+          </Col>
+          <Col xs="auto">
+            <a href="https://medium.com/@mendelrosenblum" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faMedium} size="2x" style={{ color: "white" }} />
             </a>
           </Col>
         </Row>

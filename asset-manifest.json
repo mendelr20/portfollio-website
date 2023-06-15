@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.c231f289.js",
+    "main.js": "/static/js/main.88851f4b.js",
     "static/media/About.jpg": "/static/media/About.2f39fefe6220dfca719f.jpg",
     "static/media/TraumaTalks.png": "/static/media/TraumaTalks.b088ac00c25362dbfae5.png",
     "static/media/EMS.png": "/static/media/EMS.35df363a9148b7281605.png",
@@ -8,9 +8,9 @@
     "static/media/NursesSalary.png": "/static/media/NursesSalary.ae0843779d2cacb449f2.png",
     "static/media/EntertainmentTracker.png": "/static/media/EntertainmentTracker.3eac00d7250e66904406.png",
     "index.html": "/index.html",
-    "main.c231f289.js.map": "/static/js/main.c231f289.js.map"
+    "main.88851f4b.js.map": "/static/js/main.88851f4b.js.map"
   },
   "entrypoints": [
-    "static/js/main.c231f289.js"
+    "static/js/main.88851f4b.js"
   ]
 }

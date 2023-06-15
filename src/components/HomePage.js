@@ -34,7 +34,12 @@ function HomePage() {
                     href="https://seniorcareems.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white text-decoration-none font-weight-bold"
+                    className="text-decoration-none text-white"
+                    style={{
+                      fontStyle: "italic",
+                      fontWeight: "bold",
+                      fontSize: "larger",
+                    }}
                   >
                     Senior Care EMS
                   </a>
@@ -56,7 +61,12 @@ function HomePage() {
                     href="https://www.hatzalahmetrowest.org/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white text-decoration-none font-weight-bold"
+                    className="text-decoration-none text-white"
+                    style={{
+                      fontStyle: "italic",
+                      fontWeight: "bold",
+                      fontSize: "larger",
+                    }}
                   >
                     Hatzalah MetroWest
                   </a>
@@ -78,7 +88,12 @@ function HomePage() {
                     href="https://www.flatironschool.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white text-decoration-none font-weight-bold"
+                    className="text-decoration-none text-white"
+                    style={{
+                      fontStyle: "italic",
+                      fontWeight: "bold",
+                      fontSize: "larger",
+                    }}
                   >
                     Flatiron School
                   </a>
@@ -89,7 +104,12 @@ function HomePage() {
                     href="https://nmetc.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white text-decoration-none font-weight-bold"
+                    className="text-decoration-none text-white"
+                    style={{
+                      fontStyle: "italic",
+                      fontWeight: "bold",
+                      fontSize: "larger",
+                    }}
                   >
                     NMETC (National Medical Education & Training Center)
                   </a>
@@ -100,7 +120,12 @@ function HomePage() {
                     href="https://www.bhemt.org/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white text-decoration-none font-weight-bold"
+                    className="text-decoration-none text-white"
+                    style={{
+                      fontStyle: "italic",
+                      fontWeight: "bold",
+                      fontSize: "larger",
+                    }}
                   >
                     B&H EMT (B&H Emergency Medical Training)
                   </a>
@@ -121,7 +146,12 @@ function HomePage() {
                     href="https://presidentialserviceawards.gov/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-white text-decoration-none font-weight-bold"
+                    className="text-decoration-none text-white"
+                    style={{
+                      fontStyle: "italic",
+                      fontWeight: "bold",
+                      fontSize: "larger",
+                    }}
                   >
                     Presidential Award - Bronze
                   </a>

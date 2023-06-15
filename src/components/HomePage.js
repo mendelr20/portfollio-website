@@ -71,7 +71,7 @@ function HomePage() {
                     Hatzalah MetroWest
                   </a>
                   , EMT & Member of Documentation Committee, Since its inception
-                  on September 3, 2021, to Present
+                  on September 3, 2021, - Present
                 </ListGroup.Item>
               </ListGroup>
             </Card.Body>

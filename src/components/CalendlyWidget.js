@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 
+
 const CalendlyWidget = () => {
   useEffect(() => {
     const script = document.createElement('script');
@@ -25,7 +26,13 @@ const CalendlyWidget = () => {
     }
   }, []);
 
-  return <div id="calendly-badge-root" />;
+  return (
+     <div
+        id="calendly-badge-root"
+        style={{ position: 'fixed', zIndex: '9999', backgroundColor: '#ffffff', color: '#000000' }}
+      />
+  
+  );
 };
 
 export default CalendlyWidget;

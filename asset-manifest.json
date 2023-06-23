@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.776b851d.js",
+    "main.js": "/static/js/main.580ec42d.js",
     "static/media/About.jpg": "/static/media/About.2f39fefe6220dfca719f.jpg",
     "static/media/TraumaTalks.png": "/static/media/TraumaTalks.b088ac00c25362dbfae5.png",
     "static/media/EMS.png": "/static/media/EMS.35df363a9148b7281605.png",
@@ -9,9 +9,9 @@
     "static/media/EntertainmentTracker.png": "/static/media/EntertainmentTracker.3eac00d7250e66904406.png",
     "static/media/resume.pdf": "/static/media/resume.a7bd9a86a791f98ca4cc.pdf",
     "index.html": "/index.html",
-    "main.776b851d.js.map": "/static/js/main.776b851d.js.map"
+    "main.580ec42d.js.map": "/static/js/main.580ec42d.js.map"
   },
   "entrypoints": [
-    "static/js/main.776b851d.js"
+    "static/js/main.580ec42d.js"
   ]
 }

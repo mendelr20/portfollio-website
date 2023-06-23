@@ -9,6 +9,7 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Header from "./Header";
 import Footer from "./Footer";
+import CalendlyWidget from './CalendlyWidget';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
           </Routes>
         </Container>
+        <CalendlyWidget/>
       </div>
       <Footer />
     </div>

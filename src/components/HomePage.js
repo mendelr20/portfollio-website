@@ -17,8 +17,7 @@ function HomePage() {
               <Card.Title className="h4">About Me</Card.Title>
               <Card.Text>
                 I am a full-stack Software Engineer with a passion for Emergency
-                Medicine. I am currently an NYC 911 EMT and soon to be a
-                Paramedic.
+                Medicine. I am currently an NYC 911 EMT and a National Registry Paramedic.
               </Card.Text>
             </Card.Body>
           </Card>

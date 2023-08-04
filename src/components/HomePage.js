@@ -112,7 +112,7 @@ function HomePage() {
                   >
                     NMETC (National Medical Education & Training Center)
                   </a>
-                  , Paramedic, Expected Graduation, July 2023
+                  , Paramedic, July 2023
                 </ListGroup.Item>
                 <ListGroup.Item className="bg-dark text-white border-0">
                   <a

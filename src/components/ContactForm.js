@@ -8,7 +8,7 @@ function ContactForm() {
   if (state.succeeded) {
     return (
       <p className="text-success">
-        Thanks for reaching out! I will get in contact with you shortly.
+        Thanks for reaching out! I will get in contact with you shortly. 
       </p>
     );
   }
